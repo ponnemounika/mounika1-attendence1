@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UFF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+<style>
+table{
+	width:100%;
+	border-collapse: collapse ;
+}
+th, td{
+	border:1px solid black;
+	text-align: center;
+	padding:10px;
+}
+th{
+background-color:#4CA50;
+color: white;
+}
+t foot{
+	background-color:#f2f2f2;
+	font-weight: bold;
+}
+tr :nth-child(even){
+		background-color:#f1f1f1;
+}
+tr: nth-child(odd){
+		background-color:#ffffff ;
+}
+.lab{
+	background-color:ffEB3B;
+}
+.elective{
+	background-color:ff7043;
+}
+</style>
+</head>
+<body>
+<h1>my class time table</h1>
+<table>
+<thead>
+<tr>
+<th row span="2">Day</th>
+<th Col span="5">Subject</th>
+</tr>
+<tr>
+<th>9:00-10:00am</th>
+<th>10:00-11:00am</th>
+<th>11:00-12:00pm</th>
+<th>1:00-2:00pm</th>
+<th>2:00-3:00pm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monday</td>
+<td>physics</td>
+<td>science</td>
+<td>history</td>
+<td class="lab "colspan="2">physics lab</td>
+<td> English</td>
+</tr> 
+<tr>
+<td>Tuesday</td>
+<td>physics</td>
+<td>science</td>
+<td>history</td>
+<td class="lab "colspan="2">physics lab</td>
+<td> English</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>physics</td>
+<td>science</td>
+<td>history</td>
+<td class="lab" colspan="2">physics lab</td>
+<td> English</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>physics</td>
+<td>science</td>
+<td>history</td>
+<td class="elective">Elective-history</td>
+<td> English</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>physics</td>
+<td class="elective">Elective-history</td>
+<td>science</td>
+<td>history</td>
+<td> English</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td> colspan="6">*lab hours are highlighted in yellow.Elective hours are heighlighted in orange.</td>
+</tr>
+</tfoot>
+</body>
+</html>
+
